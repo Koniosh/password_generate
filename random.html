@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="random.css"/>
+</head>
+<body>
+    <div class="page">
+    <div class="head">
+    <div id="first"><h2 ><b>Generate a</b></h2></div>
+    <div id="second"><h2><b>Random password</b></h2>
+       
+    </div>
+    </div>  
+    <div class="inpt">
+        <label for="box"></label>
+        <input type="text" id="box" placeholder="Password" />
+        <img src="copy.png" />  
+    </div>
+    <div class="btn">
+        <button onclick= "generate()" type="button"><img src="generate.png" /> Generate Password </button>
+        <button class="clr" onclick= "clrr()" type="button"><img src="cross.jpg" /> Clear </button>
+    </div>
+    
+   </div>
+   <script src="random.js"></script>
+</body>
+</html>
